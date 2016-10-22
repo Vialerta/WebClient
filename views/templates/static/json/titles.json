@@ -1,0 +1,11 @@
+{
+    "heads":
+    {
+      "dashboard":
+       {
+         "title":"Dashboard",
+         "id":1,
+         "view":51
+       }
+    }
+}
