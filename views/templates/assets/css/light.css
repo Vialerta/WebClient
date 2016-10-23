@@ -1,0 +1,25 @@
+body{
+  background-color: #f1f2f3;
+}
+
+.navbar{
+  background-color: white;
+  padding: 10px 0px;
+}
+
+footer{
+  background-color: #444;
+  color: #f1f2f3;
+}
+
+
+main{
+  background-color: white;
+  padding: 30px;
+  border-radius: 2px;
+  margin-right: 30px;
+}
+
+aside{
+  background-color: #fafafa !important;
+}
