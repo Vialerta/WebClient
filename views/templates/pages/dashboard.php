@@ -47,19 +47,61 @@
             var replies_chart = new google.visualization.PieChart(document.getElementById('replies_charts'));
         type_chart.draw(types_data, types_options);
         issue_chart.draw(issues_data, issues_options);
-          replies_chart.draw(replies_data, replies_options);
+        replies_chart.draw(replies_data, replies_options);
       }
     </script>
 
 <div class="grid">
-  <div class="width-1-3">
+  <div class="width-medium-1-3">
   <div id="types_charts" style="max-width: 500px; height: 300px;"></div>
   </div>
-    <div class="width-1-3">
+    <div class="width-medium-1-3">
   <div id="issues_charts" style="max-width: 500px; height: 300px;"></div>
     </div>
-
-      <div class="width-1-3">
+      <div class="width-medium-1-3">
   <div id="replies_charts" style="max-width: 500px; height: 300px;"></div>
       </div>
 </div>
+
+<hr />
+
+<h3>Issues List</h3>
+<table class="table table-striped table-condensed">
+
+    <thead>
+        <tr>
+            <th>...</th>
+
+            <th>...</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>...</td>
+
+            <td>...</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+    </tbody>
+</table>

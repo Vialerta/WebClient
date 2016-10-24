@@ -1,7 +1,6 @@
 <nav class="navbar">
     <div class="container container-center">
         <a href="" class="navbar-brand">Logo</a>
-
         <div class="navbar-flip">
             <ul class="navbar-nav">
                 <li class="active"><a href=""><i class="icon-dashboard"></i></a></li>
@@ -12,5 +11,4 @@
     </div>
     </div>
 </nav>
-
 <div class="grid">
