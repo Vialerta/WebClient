@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar theme_color">
     <div class="container container-center">
         <a href="" class="navbar-brand">Logo</a>
         <div class="navbar-flip">

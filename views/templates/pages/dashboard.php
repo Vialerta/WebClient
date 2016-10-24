@@ -20,26 +20,42 @@
         var replies_data = google.visualization.arrayToDataTable([
           ['Replies',      'Issues'],
           ['Open',             26],
-          ['Replies',           2]
+          ['Answered',           2]
         ]);
 
         var types_options = {
           title: 'Types of Issues',
-          is3D: false,
+          is3D: true,
           pieHole: 0.3,
+          slices: {
+            0: { color: '005DA6' },
+            1: { color: '66C2A5' },
+            2: { color: '51768C' },
+            3: { color: '43A3D8'}
+          }
 
         };
         var issues_options = {
           title: 'Stats of Issues',
-          is3D: false,
+          is3D: true,
           pieHole: 0.3,
-
+          slices: {
+            0: { color: '005DA6' },
+            1: { color: '66C2A5' },
+            2: { color: '51768C' },
+            3: { color: '43A3D8'}
+          }
         };
         var replies_options = {
           title: 'Replies of Issues',
-          is3D: false,
+          is3D: true,
           pieHole: 0.3,
-
+          slices: {
+            0: { color: '005DA6' },
+            1: { color: '66C2A5' },
+            2: { color: '51768C' },
+            3: { color: '43A3D8'}
+          }
         };
 
         var type_chart = new google.visualization.PieChart(document.getElementById('types_charts'));
