@@ -1,6 +1,6 @@
 <?php
 
-$url = 'static/json/titles.json';
+$url = 'views/templates/static/json/titles.json';
 
 $get_json_head = file_get_contents($url);
 

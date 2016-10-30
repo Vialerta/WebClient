@@ -7,8 +7,8 @@
     <title><?php print $head['title']; ?> - ERP Crowdsourced</title>
     <link href="/favicon.ico" rel="shortcut icon">
     <!-- link all the styles -->
-    <link rel="stylesheet" href="assets/css/base.css" />
-      <link rel="stylesheet" href="assets/css/light.css" />
+    <link rel="stylesheet" href="views/templates/assets/css/base.css" />
+      <link rel="stylesheet" href="views/templates/assets/css/light.css" />
     <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

@@ -6,7 +6,7 @@
 
 <div  class="grid">
   <div class="width-medium-1-3">
-<img width="80" src="assets/img/gplv3.svg" />
+<img width="80" src="views/templates/assets/img/gplv3.svg" />
   <p>
   GNU General Public License
   </p>
