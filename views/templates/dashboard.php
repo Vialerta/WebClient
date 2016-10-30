@@ -1,5 +1,6 @@
 <?php
 
+$page = "dashboard";
 require_once 'functions/title.php';
 require_once 'modules/head.php';
 require_once 'modules/nav.php';

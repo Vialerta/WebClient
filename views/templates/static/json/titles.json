@@ -6,6 +6,12 @@
          "title":"Dashboard",
          "id":1,
          "view":51
-       }
+       },
+       "404":
+        {
+          "title":"Página não encontrada - Erro 404",
+          "id":0,
+          "view":49
+        }
     }
 }

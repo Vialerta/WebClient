@@ -13,8 +13,14 @@ switch ($page) {
       require 'views/templates/issues.php';
       break;
 
+      case '404':
+        // open the issues page
+        require 'views/templates/404.php';
+        break;
+
   default:
     // Set the Default
       require 'views/templates/dashboard.php';
+      
     break;
 }
