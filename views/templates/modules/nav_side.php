@@ -13,4 +13,15 @@
        <li><a href="#"> <i class="icon-tag"> </i> My Tickets</a>
 </ul>
 </aside>
+<aside class="panel panel-box hidden-small">
+      <h3 class="panel-title">Trending</h3>
+
+    <ul class="nav-sub list list-line">
+           <li><a href="#">#security</a></li>
+           <li><a href="#">#infrastructure</a></li>
+           <li><a href="#">#sanitation</a></li>
+       </ul>
+
+</ul>
+</aside>
 </div>

@@ -14,8 +14,7 @@ a {
     color: #015A8C;
 }
 
-.navbar-brand,
-.navbar-nav>li>a {
+.navbar-brand, .navbar-nav>li>a {
     color: white !important;
 }
 
@@ -36,10 +35,11 @@ footer {
     background-color: #444;
     color: #f1f2f3;
 }
-.dark-grey{
-background-color: #333;
-padding: 10px;
-    }
+
+.dark-grey {
+    background-color: #333;
+    padding: 10px;
+}
 
 main {
     background-color: white;
@@ -64,4 +64,29 @@ aside>.nav>li>a {
 
 .shadow {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+
+
+[tooltip]:before {
+    bottom: 25%;
+    font-family: arial;
+    font-weight: 600;
+    border-radius: 2px;
+    background: #585858;
+    color: #fff;
+    content: attr(tooltip);
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    padding: 5px 7px;
+    margin-right: 12px;
+    position: absolute;
+    right: 100%;
+    white-space: nowrap;
+}
+
+[tooltip]:hover:before, [tooltip]:hover:after {
+    visibility: visible;
+    opacity: 1;
 }
