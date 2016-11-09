@@ -1,17 +1,19 @@
 {
-    "heads":
-    {
-      "dashboard":
-       {
-         "title":"Dashboard",
-         "id":1,
-         "view":51
-       },
-       "404":
-        {
-          "title":"Página não encontrada - Erro 404",
-          "id":0,
-          "view":49
+    "heads": {
+        "dashboard": {
+            "title": "Dashboard",
+            "id": 1,
+            "view": 51
+        },
+        "404": {
+            "title": "Página não encontrada - Erro 404",
+            "id": 0,
+            "view": 49
+        },
+        "profile": {
+            "title": "Profile",
+            "id": 2,
+            "view": 52
         }
     }
 }

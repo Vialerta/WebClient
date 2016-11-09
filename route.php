@@ -1,6 +1,10 @@
 <?php
 
-$page = $_GET['page'];
+if (isset($_GET['page'])) {
+    $page = $_GET['page'];
+} else {
+    $page = 'dashboard';
+}
 
 switch ($page) {
   case 'dashboard':
@@ -13,6 +17,11 @@ switch ($page) {
       require 'views/templates/issues.php';
       break;
 
+      case 'profile':
+        // open the profile page
+        require 'views/templates/profile.php';
+        break;
+
       case '404':
         // open the issues page
         require 'views/templates/404.php';
@@ -21,6 +30,6 @@ switch ($page) {
   default:
     // Set the Default
       require 'views/templates/dashboard.php';
-      
+
     break;
 }

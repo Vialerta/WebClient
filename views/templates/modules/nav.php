@@ -9,8 +9,8 @@
 
             <ul class="navbar-nav hidden-small">
 
-                <li class="active"><a href="">Dashboard</a></li>
-                <li class="parent"><a href="">Profile</a></li>
+                <li class="active"><a href="?page=dashboard">Dashboard</a></li>
+                <li class="parent"><a href="?page=profile">Profile</a></li>
                 <li class="parent"><a href="">Settings</a></li>
                   <li><a href=""><i class="icon-sign-out"></i></a></li>
             </ul>
